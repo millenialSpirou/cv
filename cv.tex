@@ -1,0 +1,145 @@
+\documentclass{article}
+\usepackage[a4paper, total={6in, 8in}]{geometry}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{comment}
+
+
+\title{Resume}
+\author{Frederic Boileau\\[1em] fred.boileau@gmail.com}
+
+\begin{document}
+\pagestyle{empty}
+
+\null\hfill\href{https://www.linkedin.com/in/frederic-boileau/}{\includegraphics[width=5mm]{linkedin.png}}
+\begin{center}
+  Resume\\
+  Frederic Boileau\\
+  fred.boileau@gmail.com\\
+  (514) 292--4331
+\end{center}
+
+\section*{Education}
+
+\begin{itemize}
+  \item UdeM Msc Computer Science (AI and Optimization, at thesis writing phase, on hiatus)\\ 2018-\ldots
+  \item Mcgill Bsc Mathematics and Computer Science\\
+    2018
+  \item Polytechnique BEng Electrical Engineering (2 years, not completed, GPA: 3.4/4)\\ 2015--2017
+\end{itemize}
+
+
+\section*{Work Experience}
+
+\begin{itemize}
+  \item ADOPT/IBS:\@ CORE team (infrastructure, backend, optimization) developer\\ 2021
+    \begin{itemize}
+      \item Improve the custom database 
+        (implemented in a in-house implementation of a Scheme with a reactive object model)
+      \item Implement new functionalities pertaining to relationships between objects
+        and update propagation between them in above mentionned data model
+      \item Upgrade, maintain and develop new REST endpoints (Python and Flask)
+      \item Push new releases through custom pipeline 
+        (sh scripts, Makefiles, Docker, k8s + helm)
+      \item Maintain infrastructure (Kubernetes cluster managed through Helm releases)
+        on in clusters both on local hardware (VMware) and remote (gcloud)
+    \end{itemize}
+
+  \item GIRO:\@ C++ developer for transport scheduling module team \\ 2017
+    \begin{itemize}
+      \item Develop new features for transport visualization
+      \item Update codebase to new standards (e.g. C++14 and STL)
+      \item Implement database migration tool (essentially symmetric serializers and deserializers)
+      \item Maintain legacy C++98
+    \end{itemize}
+
+\clearpage
+
+  \item Ubisoft:\@ data science intern for the User Research Lab\\ 2016
+    \begin{itemize}
+      \item Write SQL (HiveQL) queries to present quantitative data to developer team
+      \item Produce dashboards for the developer teams and management teams
+      \item Address efficiency issues in big data environment (order of petabytes)
+        with schema on read scheme.
+      \item Maintain the ETL pipeline (airflow), which includes monitoring
+        the temporary tables in the associated directed acyclic graph and debugging failed queries.
+    \end{itemize}
+
+  \item Resarch Institute McGill University Health Center:\@ research assistant\\ 2015
+    \begin{itemize}
+      \item Implement statistical analysis tools relevant to given data in R
+      \item Implement tool for automated periodic reporting of key metrics
+      \item Evaluate and recommend modifications concerning the data logging
+        interface for clinicians and its impact on data analysis quality
+    \end{itemize}
+
+  \item Santropol Roulant:\@ bike coop program manager\\ 2014
+    \begin{itemize}
+      \item Migrate ad-hoc sales system to point of sale system (POS) and computerized inventory management
+      \item Organize workshops in bike repair
+      \item Repair and maintain coop's bike fleet
+      \item Schedule and manage monthly meetings of the volunteer team
+    \end{itemize}
+
+\end{itemize}
+
+\section*{Tools/skills}
+\begin{itemize}
+  \item Advanced programming skills for production environment in Python, C++, Scheme, sh (bash zsh)
+  \item Advanced Linux user, sysadmin skills.  Experience working with Debian, REHL, and Arch based distributions.
+  \item Working knowledge of C for embedded systems; projects pursued while an Electrical Engineering student. Includes participating in the Poly eRacing project as a member of the team focused on the battery management board (also involved PCB development.)
+  \item Hobby level knowledge of ML family languages, Common Lisp, Emacs Lisp and Haskell
+  \item Workflow tools used: vim, emacs (DOOM evil-mode), perl regexps, zsh, tmux, ssh, git, \LaTeX
+  \item Strong knowledge of mathematical foundations of numerical optimization
+  \item Clarity, conciseness and correctness minded, conditionned through a strong pure mathematics education
+  \item Mother tongue level in French and English, intermediate Portuguese reading.
+\end{itemize}
+
+
+\begin{comment}
+
+\section*{Misc/interests}
+\begin{itemize}
+  \item Writer of short stories and poetry in both English and French
+  \item Interest in theory of literature (stylistics, russian formalism, hermeneutics, prosody)
+  \item Music theory and classical guitar
+  \item Favourite poets: John Berryman, Louise G\"uck 
+\end{itemize}
+
+\item Strong tendency to be interested opening black boxes and learning about different paradigms
+  (e.g. modern OS developments, compiler technologies, interesting languages with different paradigms 
+  (e.g. all the lisps, FP (ML family), concurrency focuses ones (Go, Erlang)
+
+\section*{Skills}
+My undergrad was completed in applied mathematics at McGill university
+with a minor in computer science. While my first two years were focused
+on pure math prerequisites I had the chance to narrow down my studies on
+mathematical optimization in my last year. My final project was a literature
+review on non smooth optimization methods in the case of difference of convex
+functions.\\
+
+I am currently in the process of finishing up my masters in Artificial
+Intelligence at UdeM at the Departement d'informatique et de Recherche
+Operationelle (DIRO). In my first year I took courses in structured learning and
+probability theory. Now in my second year I am focusing on deep learning.\\
+
+In the context of my studies I have implemented various machine learning
+algorithms in Python. Examples include LSTM for text generation, GMM inference
+and struct-SVM methods based on projections and Block-Coordinate Frank-Wolfe;
+amongst others.\\
+
+In terms of data structures my education has been mostly in C++.  My skills in
+Cpp date back to my two years in Electrical Engineering at Polytechnique where
+it was the language used to teach basic programming. I used it again at McGill
+where I took a courses in discrete methods and algorithm design.\\
+
+The two programming languages I consider to be fluent in are python and cpp however
+I have studied a fair bit of programming language theory on my own which has meant
+learning bits of Scheme, Common Lisp, OCaml and Haskell.\\
+
+I am a native French speaker but have also been speaking writing and reading English for most
+of my life. I have been trying to learn Portuguese (BR) for a couple of years on my own.\\
+\end{comment}
+
+
+\end{document}
