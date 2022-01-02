@@ -1,0 +1,79 @@
+Hello,  
+
+**Introduction**:    
+I have a keen interest in programming language theory and design, high
+performance computing, compiler technologies, the interface of hardware with
+software and all things math related. I have a strong combination of academic
+and work experience pointing towards the above mentionned fields and challenges.
+
+*Education*:  
+I started as a Math-Physics student at McGill, transferred to
+Polytechnique Montréal for a degree in electrical engineering. After completing
+two years in the latter I returned to McGill to finish a Bsc in Math-CS for
+wanting to have a deeper knolwedge of algorithms and mathematical theories
+encountered in my engineering degree, such as the ones seen in signal processing
+and control systems. After graduating I took my first permanent position at GIRO
+(see below for more details) however I decided to go to Université de Montréal
+shortly after at the DIRO (acronym expansion translates to department of
+computer science and operations research) to explore the graduate academic role.
+During those two years I took various courses in machine learning, operations
+research and optimization algorithms and programming language theory.  I quit to
+work without finishing my thesis after realizing that I had gathered all I
+wanted from this university and wasn't looking forward to a career in academia.  
+
+*Work Experience*:  
+My work experience consists of two internships and two permanent roles.  
+
+In the current one I am part of a small team that works on the core of a highly
+complex product. On the front line we add features and business logic
+implemented through a in-house scheme interpreter. The core and long run work
+involves tuning algorithms to solve ILP problems for logistics, improving the
+custom scheme interpreter and its libraries (including a reactive data model one
+for efficient and automatic recomputation of values dependent of a another value
+which has changed.) All those core components beneath the scheme scripting layer
+are written in C.  
+
+Since it is a small independent team (4) which delivers those "core components"
+to other teams in the larger ecosystem of the company, we also need to be fluent
+in the devops process (no dedicated engineer to this role) which involves
+managing a local cluster used for testing, packaging and testing the software
+from docker containers to helm charts and deploying on the cloud.     
+
+My previous permanent position was also in a operations research shop. The
+delivered product was a C++ monolith which required extensive maintenance and
+modernization. Most of the details are irrelevant here as they pertain to
+subtleties of a huge product (millions of lines of code.) The usual challenges
+of a big C++ code base were there, long build times, difficulty in reaching
+appropriate test coverage, required knowledge of C++ warts especially
+performance wise for memory allocation, impedance mismatch between older parts
+of code base and desire to modernize towards newer C++ versions and features.  
+
+My interest in SiFive was triggered by a search for RISC-V processors which in
+turn can be attributed to the following chain of events: wanting to migrate my
+laptop to a declarative nix distro, choosing Guix, needing a hardware/firmware
+combination which would be supported by purely GPL licensed software, general
+frustration at the state of things for the latter, buying an old Lenovo T400
+supported by libreboot, frustration at the state of affairs in the
+hardware/firmware sector and outrage at Intel's Management Engine and AMD's
+secure technology systems' pervasiveness.  
+
+*Conclusion*:  
+This role seems like an excellent fit given my education, where I am in my
+career and my long-running interests. My machine learning experience is relevant
+as well, I have read quite a few research papers while in graduate school on
+providing language constructs their implementations for highly parallel
+evaluation of computational graphs for deep learning. My ultimate goal was (is?)
+to generate custom VHDL which matches efficiently with a deep learning problem
+via a pipeline from the Glascow Haskell Compiler (GHC) to the LLVM backend using
+category theory concepts for automatic differentiation and compilation. Alas
+this was a bit ambitious for a master's degree.  
+
+I would be excited to relocate for this position near SiFive's offices
+(currently in Montreal), and as a matter of fact I'd like to express a general
+interest for this company and any role which would be a potential match.  
+
+Sincerely,  
+Frederic Boileau  
+
+frederic.boileau@protonmail.com  
+(514) 292-4331  
