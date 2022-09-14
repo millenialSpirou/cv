@@ -1,0 +1,141 @@
+[![image](linkedin.png){width="5mm"}](https://www.linkedin.com/in/frederic-boileau/)
+
+::: center
+Resume\
+Frederic Boileau\
+frederic.boileau@fredericboileau.org\
+(514) 292--4331
+:::
+
+# Education {#education .unnumbered}
+
+-   UdeM Msc Computer Science (AI and Optimization, at thesis writing
+    phase, on hiatus)\
+    2018-...
+
+-   Mcgill Bsc Mathematics and Computer Science\
+    2012--2018
+
+-   Polytechnique BEng Electrical Engineering (2 years, not completed,
+    GPA: 3.4/4)\
+    2015--2017
+
+# Work Experience {#work-experience .unnumbered}
+
+-   ADOPT/IBS:Senior Product Engineer, member of \"Core\" team
+    (infrastructure, backend, optimization)\
+    2021 (current job)
+
+    -   Improve and develop new features for the backend written in
+        Scheme (R5RS) and an associated reactive object engine
+        (incremental computation). This backend is mostly a layer for
+        data consistency management that wraps around the companies'
+        solvers.
+
+    -   Implement new functionalities pertaining to relationships
+        between objects and update propagation between them in above
+        mentionned data model (incremental computation)
+
+    -   Upgrade, maintain and develop new REST functionalities (Python
+        and Flask)
+
+    -   Push new releases through custom pipeline (sh and Perl scripts,
+        Makefiles, Docker, K8s + Helm)
+
+    -   Maintain infrastructure in clusters both on local hardware
+        (VMware) and remote (gcloud)
+
+-   GIRO:C++ developer for transport scheduling module team\
+    2017 (7 months)
+
+    -   Develop new features for transport visualization
+
+    -   Update codebase to new standards (e.g. C++14 and STL)
+
+    -   Implement database migration tool (essentially symmetric
+        serializers and deserializers)
+
+    -   Maintain legacy C++98
+
+-   Ubisoft:data science intern for the User Research Lab\
+    2016 (5 months)
+
+    -   Write SQL (HiveQL) queries to present quantitative data to
+        developer team
+
+    -   Produce dashboards for the developer teams and management teams
+
+    -   Address efficiency issues in big data environment (order of
+        petabytes)
+
+    -   Maintain the ETL pipeline (airflow), which includes monitoring
+        the temporary tables in the associated directed acyclic graph
+        and debugging failed queries.
+
+-   Resarch Institute McGill University Health Center:research
+    assistant\
+    2015 (1.5 year, part-time)
+
+    -   Implement statistical analysis tools relevant to given data in R
+
+    -   Implement tool for automated periodic reporting of key metrics
+
+    -   Evaluate and recommend modifications concerning the data logging
+        interface for clinicians and its impact on data analysis quality
+
+-   Santropol Roulant:bike coop program manager\
+    2014 (4 months internship)
+
+    -   Migrate ad-hoc sales system to point of sale system (POS) and
+        computerized inventory management
+
+    -   Organize workshops in bike repair
+
+    -   Repair and maintain coop's bike fleet
+
+    -   Schedule and manage monthly meetings of the volunteer team
+
+# Tools/skills {#toolsskills .unnumbered}
+
+-   Experience in production environment in the following languages
+    Python, C++, C, Scheme (R5RS) and Bash + Perl for sysadminy
+    challenges
+
+-   Advanced Linux user, sysadmin skills. Experience working with
+    Debian, REHL, and Arch based distributions.
+
+-   Working knowledge of C for embedded systems; projects pursued while
+    an Electrical Engineering student. Includes participating in the
+    Poly eRacing project as a member of the team focused on the battery
+    management board (also involved PCB development.)
+
+-   Hobby level knowledge of ML family languages, Common Lisp and Emacs
+    Lisp
+
+-   Workflow tools used: (n)vim, emacs (evil-mode), perl regexps,
+    bash/zsh, tmux, ssh, git, LaTeX
+
+-   Strong knowledge of mathematical foundations of numerical
+    optimization
+
+-   Clarity, conciseness and correctness minded, conditionned through a
+    strong pure mathematics education
+
+-   Mother tongue level in French and English, intermediate Portuguese
+    reading.
+
+# Misc/interests {#miscinterests .unnumbered}
+
+-   Writer of short stories and poetry in both English and French
+
+-   Interest in theory of literature (stylistics, hermeneutics, prosody)
+
+-   Favourite poets: Ted Berrigan, Alice Notley, John Berryman, Louise
+    Glück
+
+-   Music theory and classical guitar
+
+Strong tendency to be interested in opening black boxes. Examples
+include modern OS developments, compiler technologies, interesting
+languages with different paradigms; all the lisps, FP (ML family),
+concurrency focused ones (Go, Erlang), logic programming (Prolog)
