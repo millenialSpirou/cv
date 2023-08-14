@@ -1,4 +1,6 @@
 \documentclass{article}
+
+
 \usepackage[a4paper, total={6in, 8in}]{geometry}
 \usepackage{hyperref}
 \usepackage{graphicx}
@@ -9,9 +11,7 @@
 \author{Frederic Boileau\\[1em] frederic.boileau@fredericboileau.org}
 
 \begin{document}
-\pagestyle{empty}
-
-\null\hfill\href{https://www.linkedin.com/in/frederic-boileau/}{\includegraphics[width=5mm]{linkedin.png}}
+\pagestyle{empty} \null\hfill\href{https://www.linkedin.com/in/frederic-boileau/}{\includegraphics[width=5mm]{linkedin.png}}
 \begin{center}
   Resume\\
   Frederic Boileau\\
@@ -32,17 +32,27 @@
 \section*{Work Experience}
 
 \begin{itemize}
-  \item ADOPT/IBS:\@ Senior Product Engineer, member of "Core" team (infrastructure, backend, optimization)\\ 2021 (current job)
+  \item ADOPT/IBS:\@ Senior Product Engineer\\ May 2021 (current occupation)
+
     \begin{itemize}
-      \item Improve and develop new features for the backend written in Scheme (R5RS) and an associated reactive object engine
-        (incremental computation). This backend is mostly a layer for data consistency management that wraps around the companies' solvers.
-      \item Implement new functionalities pertaining to relationships between objects
-        and update propagation between them in above mentionned data model (incremental computation)
-      \item Upgrade, maintain and develop new REST functionalities (Python and Flask)
-      \item Implement new suite of unittests (pytest)
-      \item Push new releases through custom pipeline 
-        (sh and Perl scripts, Makefiles, Docker, K8s + Helm)
-      \item Maintain infrastructure in clusters both on local hardware (VMware) and remote (gcloud)
+      \item Reponsible for backend of next iteration of flagship product including design (within inherited previous work)
+      \item Technologies:
+        helm/k8s/podman, postgresql, rabbitmq, keycloak, python/aiohttp/pytest, perl, bash, scheme(R5RS)
+      \item Design, implementation, deployment (k8s) and operations (in dev environement) of the following:
+        \begin{itemize}
+          \item[$\cdot$] Asynchronous worker model for long running processes
+            and streaming notifications, with rabbimq
+          \item[$\cdot$] Authorization workflow and user management model, database migrations,
+            with keycloak, postgres and liquibase
+          \item[$\cdot$] Centralized aggregated logging with syslog-ng+fluentd+loki
+        \end{itemize}
+      \item Rework of frontend, reactjs
+        \begin{itemize}
+          \item[$\cdot$] adapt interfaces
+          \item[$\cdot$] upgrade to more modern js/react fixing deprecrated dependencies
+          \item[$\cdot$] adding POC for various backend features (async state synchronization with SSE+redux, user management)
+        \end{itemize}
+
     \end{itemize}
 
   \item GIRO:\@ C++ developer for transport scheduling module team \\ 2017 (7 months)
@@ -84,29 +94,25 @@
 
 \section*{Tools/skills}
 \begin{itemize}
-  \item Experience in production environment in the following languages Python, C++, C,  Scheme (R5RS) and Bash + Perl for sysadminy challenges
+  \item Industry experience in the following languages: python, C++, C, scheme (R5RS), bash, perl
+  \item Hobby experience in Ocaml, Common Lisp and Emacs Lisp (now trying nim)
   \item Advanced Linux user, sysadmin skills.  Experience working with Debian, REHL, and Arch based distributions.
   \item Working knowledge of C for embedded systems; projects pursued while an Electrical Engineering student. Includes participating in the Poly eRacing project as a member of the team focused on the battery management board (also involved PCB development.)
-  \item Hobby level knowledge of ML family languages, Common Lisp and Emacs Lisp 
-  \item Workflow tools used: (n)vim, emacs (evil-mode), perl regexps, bash/zsh, tmux, ssh, git, \LaTeX
   \item Strong knowledge of mathematical foundations of numerical optimization
   \item Clarity, conciseness and correctness minded, conditionned through a strong pure mathematics education
   \item Mother tongue level in French and English, intermediate Portuguese reading.
 \end{itemize}
 
-
-
 \section*{Misc/interests}
 \begin{itemize}
   \item Writer of short stories and poetry in both English and French
   \item Interest in theory of literature (stylistics, hermeneutics, prosody)
-  \item Favourite poets: Ted Berrigan, Alice Notley, John Berryman, Louise Gl\"uck 
-  \item Music theory and classical guitar
 \end{itemize}
 
-Strong tendency to be interested in opening black boxes. Examples include
-modern OS developments, compiler technologies, interesting languages with different paradigms;
-all the lisps, FP (ML family), concurrency focused ones (Go, Erlang), logic programming (Prolog)
+Self-motivated learner in various topics like modern OS developments,
+distributed data challenges, compiler technologies, languages with different
+paradigms; lisps, FP (ML family), concurrency focused ones (Go, Erlang), logic
+programming (Prolog,minikanren)
 
 \begin{comment}
 
