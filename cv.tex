@@ -15,15 +15,14 @@
 \begin{center}
   Resume\\
   Frederic Boileau\\
-  frederic.boileau@fredericboileau.org\\
+  frederic.boileau@protonmail.com\\
   (514) 292--4331
 \end{center}
 
 \section*{Education}
 
 \begin{itemize}
-  \item UdeM Msc Computer Science (AI and Optimization, at thesis writing phase, on hiatus)\\ 2018-\ldots
-  \item Mcgill Bsc Mathematics and Computer Science\\
+  \item Mcgill Bsc. Mathematics major \\
     2012--2018
   \item Polytechnique BEng Electrical Engineering (2 years, not completed, GPA: 3.4/4)\\ 2015--2017
 \end{itemize}
@@ -32,28 +31,44 @@
 \section*{Work Experience}
 
 \begin{itemize}
-  \item ADOPT/IBS:\@ Senior Product Engineer\\ May 2021 (current occupation)
+        \item ADOPT/IBS:\@ Senior Product Engineer\\ May 2021 (current occupation)
 
-    \begin{itemize}
-      \item Reponsible for backend of next iteration of flagship product including design (within inherited previous work)
-      \item Technologies:
-        helm/k8s/podman, postgresql, rabbitmq, keycloak, python/aiohttp/pytest, perl, bash, scheme(R5RS)
-      \item Design, implementation, deployment (k8s) and operations (in dev environement) of the following:
-        \begin{itemize}
-          \item[$\cdot$] Asynchronous worker model for long running processes
-            and streaming notifications, with rabbimq
-          \item[$\cdot$] Authorization workflow and user management model, database migrations,
-            with keycloak, postgres and liquibase
-          \item[$\cdot$] Centralized aggregated logging with syslog-ng+fluentd+loki
-        \end{itemize}
-      \item Rework of frontend, reactjs
-        \begin{itemize}
-          \item[$\cdot$] adapt interfaces
-          \item[$\cdot$] upgrade to more modern js/react fixing deprecrated dependencies
-          \item[$\cdot$] adding POC for various backend features (async state synchronization with SSE+redux, user management)
-        \end{itemize}
+                This company develops a software solution to generate optimal
+                schedules for aircraft operating companies.  I was a member of
+                the "core" team which is responsible for the development of the
+                nucleus of algorithms (column generation based) which drive the
+                main product. A migration towards more modern web technologies
+                was in effect when I joined. As such we also needed to
+                implement REST apis and start worrying about network related
+                challenges (e.g. authentification/authorization, latency)
+                as well as some associated with distributed systems since the
+                architecture relied on deploying containers in a k8s
+                environment (coherence of state, collection of logs,
+                impossibility of relying on persistent local state etc.)
 
-    \end{itemize}
+                At first I mostly worked on helping the rest api
+                implementation (python flask) and adding functionality in the
+                data management engine (scheme r5rs). A year later, after some
+                administrative reshuffling, I ended up being in charge of the
+                backend.
+
+                My tasks consisted of:
+                \begin{itemize}
+                        \item Deployment and configuration of keycloak + postgresql for user management.
+                        \item Design and implementation of a distributed message-queue network using rabbitmq to handle generation of reports and statistics asynchronously as well as SSE notifications
+                        \item Creation of an extremely simple policy mechanism relying on policies encoded in json matched with http methods, requested urls and their parameters
+                        \item Deployment and configuration of a log aggregation pipeline: syslog-ng in containers targetting a loki database with a grafana frontend
+                        \item Take charge of frontend codebase (it was in administrative limbo and tickets were not being processed) in order to test and present improvements to management.
+                        \item Supervision of two interns assigned to frontend tasks
+                \end{itemize}
+
+                I never had the time to work on the operations research
+                concerns I was hired for originally.
+
+                Technologies index:
+                helm|k8s|podman|postgresql|rabbitmq|keycloak|aiohttp|pytest|perl|bash|scheme-r5rs|react|redux|typescript|liquibase
+
+
 
   \item GIRO:\@ C++ developer for transport scheduling module team \\ 2017 (7 months)
     \begin{itemize}
@@ -63,13 +78,12 @@
       \item Maintain legacy C++98
     \end{itemize}
 
-\clearpage
 
   \item Ubisoft:\@ data science intern for the User Research Lab\\ 2016 (5 months)
     \begin{itemize}
       \item Write SQL (HiveQL) queries to present quantitative data to developer team
       \item Produce dashboards for the developer teams and management teams
-      \item Address efficiency issues in big data environment (order of petabytes)
+      \item Address efficiency issues in big data environment
       \item Maintain the ETL pipeline (airflow), which includes monitoring
         the temporary tables in the associated directed acyclic graph and debugging failed queries.
     \end{itemize}
@@ -95,9 +109,7 @@
 \section*{Tools/skills}
 \begin{itemize}
   \item Industry experience in the following languages: python, C++, C, scheme (R5RS), bash, perl
-  \item Hobby experience in Ocaml, Common Lisp and Emacs Lisp (now trying nim)
-  \item Advanced Linux user, sysadmin skills.  Experience working with Debian, REHL, and Arch based distributions.
-  \item Working knowledge of C for embedded systems; projects pursued while an Electrical Engineering student. Includes participating in the Poly eRacing project as a member of the team focused on the battery management board (also involved PCB development.)
+  \item Advanced Linux and FreeBSD user. Currently reading "The design and implementation of the FreeBSD operating system".
   \item Strong knowledge of mathematical foundations of numerical optimization
   \item Clarity, conciseness and correctness minded, conditionned through a strong pure mathematics education
   \item Mother tongue level in French and English, intermediate Portuguese reading.
@@ -109,13 +121,13 @@
   \item Interest in theory of literature (stylistics, hermeneutics, prosody)
 \end{itemize}
 
+
+\begin{comment}
+
 Self-motivated learner in various topics like modern OS developments,
 distributed data challenges, compiler technologies, languages with different
 paradigms; lisps, FP (ML family), concurrency focused ones (Go, Erlang), logic
 programming (Prolog,minikanren)
-
-\begin{comment}
-
 \section*{Skills}
 My undergrad was completed in applied mathematics at McGill university
 with a minor in computer science. While my first two years were focused
